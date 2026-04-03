@@ -14,3 +14,10 @@ fi
 
 # exercise: write a script that prints whether it is 
 # morning or not
+hour=$(date +%H)
+
+if [ $hour -lt 12 ]; then
+   echo "REAL branch morning"
+else
+   echo "REAL branch not morning"
+fi
