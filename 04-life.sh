@@ -18,7 +18,7 @@ fi
 hour=$(date +%H)
 
 if [ $hour -lt 12 ]; then
-   echo "It is morning"
+   echo "Morning version 2"
 else
-   echo "It is not morning"
+   echo "Not morning version 2"
 fi
